@@ -1,0 +1,138 @@
+/* sekcje */
+.section p{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    margin-bottom: 0;
+}
+.box{
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+}
+/* form */
+form{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* input */
+.inputbox{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid #c6c6c6;
+    margin: 15px;
+}
+input{
+    height: 40px;
+}
+.select-option{
+    text-align: left;
+}
+select{
+    appearance: none;
+    position: relative;
+}
+/* icons */
+.iconbox{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-right: 1px #c6c6c6 solid;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.iconbox img{
+    opacity: 15%;
+}
+.inputbox input,.inputbox .select-option,select{
+    width: 100%;
+    border: none;
+    margin-left: 5px;
+    color: #afafaf;
+}
+/* checkbox */
+.checkbox{
+    margin-left: 15px;
+    color: #c6c6c6;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.checkbox input{
+    border: solid black 5px;
+}
+label{
+    width: 100%;
+}
+.checkbox label{
+    text-align: left;
+    width: 70%;
+}
+.sml .checkbox{
+    width: 40%;
+    margin-bottom: 5%;
+}
+/* checkbox custom  */
+input[type='checkbox']{
+    margin-right: 15px;
+    position: relative;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: 8px;
+    left: 0;
+    border: 2px solid #c6c6c6;
+    border-radius: 3px;
+    background-color: white;
+}
+input[type='checkbox']:checked::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background:linear-gradient(#a3d840,#7ec31f );
+    border-radius: 1px;
+    position: absolute;
+    bottom: 13px;
+    left: 5px;
+}
+/* button */
+.btn{
+    width: 45%;
+    margin: 0 5% 5%;
+    padding:10px;
+    background-image: linear-gradient(#a3d840,#7ec31f );
+    border: 1px solid #3b9a00;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.btn-big{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+.btn-done{
+    background-image: linear-gradient(rgba(163,216,64,0.4),rgba(126,195,31,0.4) );
+}
+.button-box{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+}
+.btn-ignore{
+    background-image: linear-gradient(rgba(246,94,111),rgba(240,56,72) );
+}
